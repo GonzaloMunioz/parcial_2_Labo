@@ -22,7 +22,7 @@ int main(void) {
 
 	do
 	{
-		IngresarEnteroValidado("\n1) CARGAR los datos de libros\n2) CARGAR los datos de editoriales\n3) ORDENAR lista segun autor\n4) IMPRIMIR por pantalla listado de libros\n5) IMPRIMIR por pantalla listado de libros de editorial Minotauro\n0) SALIR\n Indique la opcion deseada: ", 0, 6, &option);
+		IngresarEnteroValidado("\n1) CARGAR los datos de libros\n2) CARGAR los datos de editoriales\n3) ORDENAR lista segun autor\n4) IMPRIMIR por pantalla listado de libros\n5) GENERAR archivo de libros de editorial Minotauro\n0) SALIR\n Indique la opcion deseada: ", 0, 6, &option);
 		switch(option)
 		{
 			case 1:
