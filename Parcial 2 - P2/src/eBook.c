@@ -256,7 +256,7 @@ int eBook_applyDiscount(void* aux)
 		}
 		else
 		{
-			if((idAux == 2) && (priceAux > 199))
+			if((idAux == 2) && (priceAux < 200))
 			{
 				priceAux = priceAux - (priceAux * 10 / 100);
 			}
